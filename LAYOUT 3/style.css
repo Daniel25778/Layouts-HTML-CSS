@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   flex-direction: row;
+   width: 100vw;
+   height: 100vh;
+   font-size: 100px;
+
+}
+
+header,
+main,
+nav,
+article,
+aside,
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+
+.coluna2{
+    background-color: tomato;
+    flex-grow: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: cyan;
+    flex-grow: 1;
+}
+
+main{
+    background-color: darkgoldenrod;
+    flex-grow: 6;
+}
+
+footer{
+    background-color: hotpink;
+    flex-grow: 1;
+
+}

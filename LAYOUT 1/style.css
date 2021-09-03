@@ -1,0 +1,45 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+   flex-grow: 1; 
+   font-size: 30px;
+   background-color: tomato;
+   text-align: center;
+}
+
+main{
+   flex-grow: 6; 
+   font-size: 30px;  
+   background-color: greenyellow;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+     
+}
+
+footer{
+
+    flex-grow: 1; 
+    font-size: 30px;  
+    background-color: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
